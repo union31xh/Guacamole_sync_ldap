@@ -88,8 +88,8 @@ Liste des GROUPES de 'connections' dans guacamole :
 ```
 
 Aini grace à cette liste il sera possible de construire ses profils et de remplir les champs suivants du fichier Profils.ini :
-	- "Liste_id_connection"  
-	- "Liste_id_group_connection"
+* "Liste_id_connection"  
+* "Liste_id_group_connection"
 		
 		
 		
