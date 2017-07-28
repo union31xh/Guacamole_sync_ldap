@@ -13,12 +13,14 @@ Script en python (V3) permettant de remplir la base de données guacamole à par
 Il permet également d'associer des connexions et groupes de connexions à un ensemble d'utilisateurs (représenté par une requête Ldap)
 
 Avant de lancer le script il faut modifier les fichiers ini dans le répertoire /conf :
-
+```
 	-  ParamLDAP.ini 	--> pour la connexion au serveur LDAP	
 	-  ParamMail.ini 	--> pour l'envoi de mail une fois les opérations de synchronisations finies
 	-  ParamMySql.ini 	--> pour la connexion à la base de données de Guacamole_sync_ldap
-	-  **Profils.ini**	--> permet de définir les ensembles ldap que l'on souhaite intégrer dans la base de données
 
+	-  Profils.ini		--> permet de définir les ensembles ldap que l'on souhaite intégrer dans la base de données
+```
+	
 Ci-dessous un exemple du fichier "Profils.ini" :
 
 Exemple :
