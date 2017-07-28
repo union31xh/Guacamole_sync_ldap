@@ -12,7 +12,7 @@ Script en python (V3) permettant de remplir la base de données guacamole à par
 
 Il permet également d'associer des connexions et groupes de connexions à un ensemble d'utilisateurs (représenté par une requête Ldap)
 
-Avant de lancer le script il faut modifier les fichiers ini dans le répertoire /conf
+Avant de lancer le script il faut modifier les fichiers ini dans le répertoire /conf :
 
 	-  ParamLDAP.ini 	--> pour la connexion au serveur LDAP	
 	-  ParamMail.ini 	--> pour l'envoi de mail une fois les opérations de synchronisations finies
@@ -42,11 +42,11 @@ Exemple :
 ```
 
 Dans cet exemple, 2 profils de mise à jour sont définis :
-	- le premier, nommé "Group with connections" permet :
-		- d'ajouter tous les utilisateurs contenu dans la requête ldap "(&(|(eduPersonPrimaryAffiliation=employee)(eduPersonPrimaryAffiliation=faculty))(mipSitePrincipal=UT1))",
-		- d'y associer des connexions [6,7,8] et groupes de connexion [3,4,5,6].
-	
-	- le deuxième exemple n'ajoute que les utilisateurs contenu "(eduPersonPrimaryAffiliation=*)" sans associer de connexions.
+- le premier, nommé "Group with connections" permet :
+ - d'ajouter tous les utilisateurs contenu dans la requête ldap "(&(|(eduPersonPrimaryAffiliation=employee)(eduPersonPrimaryAffiliation=faculty))(mipSitePrincipal=UT1))",
+ - d'y associer des connexions [6,7,8] et groupes de connexion [3,4,5,6].
+
+- le deuxième exemple n'ajoute que les utilisateurs contenu "(eduPersonPrimaryAffiliation=*)" sans associer de connexions.
 	
 Pour connaitre les numéros des connexions et groupes de connexions il faut lancer le script "info_connection_guacamole.py".
 
