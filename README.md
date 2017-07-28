@@ -1,6 +1,6 @@
 # Guacamole_sync_ldap
 
-**Engish :**
+**English :**
 
 Python (V3) script to synchonize database of guacamole with an LDAP.
 
