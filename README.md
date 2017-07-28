@@ -46,7 +46,7 @@ Dans cet exemple, 2 profils de mise à jour sont définis :
 	* d'ajouter tous les utilisateurs contenu dans la requête ldap "(&(|(eduPersonPrimaryAffiliation=employee)(eduPersonPrimaryAffiliation=faculty))(mipSitePrincipal=UT1))",
 	* d'y associer des connexions [6,7,8] et groupes de connexion [3,4,5,6].
 
-* le deuxième exemple n'ajoute que les utilisateurs contenu "(eduPersonPrimaryAffiliation=*)" sans associer de connexions.
+* le deuxième exemple n'ajoute que les utilisateurs contenus dans "(eduPersonPrimaryAffiliation=*)" sans associer de connexions.
 	
 Pour connaitre les numéros des connexions et groupes de connexions il faut lancer le script "info_connection_guacamole.py".
 
